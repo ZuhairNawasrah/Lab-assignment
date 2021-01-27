@@ -1,4 +1,4 @@
-var Language = prompt("what type of do you want to learn");
+var Language = prompt("what type of language do you want to learn");
 var Lang;
 
 if (Language == "HTML") {
