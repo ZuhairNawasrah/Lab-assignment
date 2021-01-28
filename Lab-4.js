@@ -1,14 +1,57 @@
 var Language = prompt("what type of language do you want to learn");
-var Lang;
+var cancel = "Selection is canceled";
+var wrong = "worng answer";
+var link;
+
+
 
 if (Language == "HTML") {
-    Lang = "Press the first link in nav. bar";
-} else if (Language == "CSS") {
-    Lang = "Press the second link in nav. bar";
+    if (confirm("Are you sure?")) {
+        alert("Good luck with coding journey");
+        link = "Click 1st link";
+        document.write(link);
+    }
+    else {
+        var Language = prompt("what type of language do you want to learn");
+        if (Language == "CSS") {
+            if (confirm("Are you sure?")) {
+                alert("Good luck with coding journey");
+                link = "Click 2nd link";
+                document.write(link);
+            } else {
+                document.write(cancel);
+            }
+        }
+    }
 } else {
-    Lang = "Please re-enter the language name";
+    if (Language == "CSS") {
+        if (confirm("Are you sure?")) {
+            alert("Good luck with coding journey");
+            link = "Click 2nd link";
+            document.write(link);
+        }
+        else {
+            var Language = prompt("what type of language do you want to learn");
+            if (Language == "HTML") {
+                if (confirm("Are you sure?")) {
+                    alert("Good luck with coding journey");
+                    link = "Click 1st link"
+                    document.write(link);
+                } else {
+                    document.write(cancel);
+                }
+            }
+        }
+    }
+    else {
+
+        document.write(wrong);
+    }
 }
 
-document.write(Lang);
-confirm("Are you sure about your pick?");
-alert("Good luck with coding journey");
+
+
+
+
+
+
