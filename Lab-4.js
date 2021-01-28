@@ -1,11 +1,11 @@
 var Language = prompt("what type of language do you want to learn");
 var cancel = "Selection is canceled";
 var link;
+var sum;
 
 while (Language !== "HTML" && Language !== "CSS") {
     Language = prompt("Can you re-enter the answer");
 }
-
 if (Language == "HTML") {
     if (confirm("Are you sure?")) {
         alert("Good luck with coding journey");
@@ -45,10 +45,10 @@ if (Language == "HTML") {
         }
     }
 }
+var pic = '<img src="HTML.png" width= 20px/>';
+var month_no = prompt("How many month do you want to finish this coures");
 
-
-
-
-
-
-
+for (i = 0; i < month_no; i++) {
+    sum = sum + pic;
+}
+document.write(sum);
