@@ -1,9 +1,10 @@
 var Language = prompt("what type of language do you want to learn");
 var cancel = "Selection is canceled";
-var wrong = "worng answer";
 var link;
 
-
+while (Language !== "HTML" && Language !== "CSS") {
+    Language = prompt("Can you re-enter the answer");
+}
 
 if (Language == "HTML") {
     if (confirm("Are you sure?")) {
@@ -12,7 +13,7 @@ if (Language == "HTML") {
         document.write(link);
     }
     else {
-        var Language = prompt("what type of language do you want to learn");
+        Language = prompt("what type of language do you want to learn");
         if (Language == "CSS") {
             if (confirm("Are you sure?")) {
                 alert("Good luck with coding journey");
@@ -31,7 +32,7 @@ if (Language == "HTML") {
             document.write(link);
         }
         else {
-            var Language = prompt("what type of language do you want to learn");
+            Language = prompt("what type of language do you want to learn");
             if (Language == "HTML") {
                 if (confirm("Are you sure?")) {
                     alert("Good luck with coding journey");
@@ -42,10 +43,6 @@ if (Language == "HTML") {
                 }
             }
         }
-    }
-    else {
-
-        document.write(wrong);
     }
 }
 
