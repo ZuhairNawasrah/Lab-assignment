@@ -3,7 +3,7 @@ var link;
 var sum;
 
 while (Language !== "HTML" && Language !== "CSS") {
-    Language = prompt("Can you re-enter the answer");
+    Language = prompt("Can you re-enter the answer?!");
 }
 for (var i = 0; i < 2;) {
     if (Language === "HTML" || Language === "CSS") {
