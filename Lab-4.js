@@ -24,7 +24,7 @@ for (var i = 0; i < 2;) {
 }
 
 
-var month_no = prompt("How many month do you want to finish this coures");
+var month_no = prompt("How many months do you wanna finish this coures?");
 alert("Good luck with coding journey");
 for (i = 0; i < month_no; i++) {
     sum = sum + pic;
