@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background-color: #3F4248;
+    color: white;
+}
+header {
+   background-color:#BBBDC7;
+   color:#3F4248;
+}
+h1 {
+    text-align: center;
+    color: #BBBDC7;
+}
+h2 {
+    text-align: center;
+    color: #DFB6E1 ;
+}
+
+.Para {text-align: justify;}
+#foot { color:#BBBDC7 ;}

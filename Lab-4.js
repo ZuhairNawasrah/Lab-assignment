@@ -3,8 +3,11 @@ var link;
 var sum = '';
 var pic = '<img src="HTML.png" width= 20px/>';
 
-while (Language !== "HTML" && Language !== "CSS") {
-    Language = prompt("Can you re-enter the answer 'HTML' or 'CSS'?!");
+input();
+function input() {
+    while (Language !== "HTML" && Language !== "CSS") {
+        Language = prompt("Can you re-enter the answer 'HTML' or 'CSS'?!");
+    }
 }
 for (var i = 0; i < 2;) {
     if (Language === "HTML" || Language === "CSS") {
@@ -16,12 +19,11 @@ for (var i = 0; i < 2;) {
         } else {
             alert("Your answer is canceled!");
             Language = prompt("Can you re-enter the answer 'HTML' or 'CSS'?!");
-            while (Language !== "HTML" && Language !== "CSS") {
-                Language = prompt("Can you re-enter the answer 'HTML' or 'CSS'?!");
-            }
+            input();
         }
     }
 }
+
 
 
 var month_no = prompt("How many months do you wanna finish this coures?");
