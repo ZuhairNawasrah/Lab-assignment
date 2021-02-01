@@ -1,11 +1,21 @@
 body {
-    margin: 0;
     background-color: #3F4248;
     color: white;
+        margin: 0;
 }
 header {
    background-color:#BBBDC7;
    color:#3F4248;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+header nav ul li a{
+    text-decoration:none;
 }
 h1 {
     text-align: center;
