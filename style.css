@@ -17,11 +17,14 @@ ul{
 }
 li{
     display: inline-block;
-    padding: 20px;
+    padding: 25px;
 }
 header nav ul li a{
     text-decoration:none;
     color: #66ff00;
+}
+main{
+    padding:20px;
 }
 h1 {
     text-align: center;
@@ -29,7 +32,10 @@ h1 {
 h2 {
     text-align:start; 
 }
+#link{
+    text-align:center;
 
+}
 .Para {
     text-align: justify;
     }
