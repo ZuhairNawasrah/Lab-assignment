@@ -11,7 +11,7 @@ input();
 for (var i = 0; i < 2;) {
     if (Language === "HTML" || Language === "CSS") {
         if (confirm("Are you sure?")) {
-            link = `Click ${Language} <a href="https://developer.mozilla.org/en-US/docs/Web/${Language}" target="_blank" style="text-decoration:none;color:#66ff00;">Link</a>`;
+            link = `Click ${Language} <a href="https://developer.mozilla.org/en-US/docs/Web/${Language}" target="_blank" style="text-decoration:none;color:#11c401d3;">Link</a>`;
             document.write(link);
             i = 2;
 
